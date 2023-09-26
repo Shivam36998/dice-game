@@ -1,0 +1,45 @@
+/** @format */
+
+.navarea {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.leftnav,
+.rightnav {
+  display: flex;
+  flex-direction: column;
+}
+.leftnav {
+  gap: 2px;
+}
+.totalScore {
+  font-size: 90px;
+  font-weight: 900;
+  margin: 0px 0 -50px 0;
+  padding: 0;
+}
+.rightnav {
+  align-items: flex-end;
+}
+.diceNumbers {
+  display: flex;
+}
+.selectLine,
+.score {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 360px) {
+  .navarea{
+    flex-direction: column;
+  }
+  .leftnav{
+    align-items: center;
+  }
+  .selectLine{
+    font-size: 15px;
+  }
+}

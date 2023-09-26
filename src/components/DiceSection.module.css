@@ -1,0 +1,39 @@
+.diceArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dice_image{
+    height: 200px;
+    width: 200px;
+}
+
+.btn_sub{
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: rgb(45, 44, 44);
+    border: transparent;
+    border-radius: 5px;
+    color: rgb(211, 210, 210);
+}
+.afterReset{
+    color: red;
+    font-size: 20px;
+}
+.gameRules{
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gameRulesButton{
+    color: red;
+    background-color: antiquewhite;
+    font-size: 18px;
+    border: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}

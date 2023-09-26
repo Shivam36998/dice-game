@@ -1,0 +1,22 @@
+.score_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.score_board img{
+    height: 180px;
+    width: 180px;
+}
+.score_line{
+    font-size: 30px;
+}
+.btn_sub{
+    font-size: 20px;
+    background: black;
+    border: transparent;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
