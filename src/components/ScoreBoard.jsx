@@ -5,7 +5,7 @@ const ScoreBoard = (props) => {
   return (
     <>
       <div className={styles.score_board}>
-        <img src="/images/smile.png" />
+        <img src="/dice-game/images/smile.png" />
         <div className={styles.score_line}>Your score is {props.score}</div>
         <button
           className={styles.btn_sub}
