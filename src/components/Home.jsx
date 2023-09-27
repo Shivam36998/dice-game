@@ -48,7 +48,7 @@ function Home(props) {
         <>
             <Container>
                 <Box>
-                    <img src="src\images\dices.png" alt="" />
+                    <img src="/images/dices.png" alt="" />
                 </Box>
                 <Box>
                     <Heading>
