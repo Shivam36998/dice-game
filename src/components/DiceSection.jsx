@@ -23,7 +23,7 @@ const DiceSection = (props) => {
       <div className="dice">
         <img
           className={styles.dice_image}
-          src={`/images/dice_${props.number}.png`}
+          src={`dice-game/images/dice_${props.number}.png`}
           onClick={props.handleClick}
         />
       </div>
